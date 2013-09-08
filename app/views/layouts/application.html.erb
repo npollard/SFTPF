@@ -7,10 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1>Super Funtime Pool Finder</h1>
-<h1>Find me some pools!</h1>
-<h1>I skated me a pool!</h1>
-<%= yield %>
+    <h1>Super Funtime Pool Finder</h1>
+
+    <div class="nav">
+<p>
+        <%= link_to "SUPER FUNTIME POOL FINDER", '#', class: "button button_large" %>
+        <br/>
+        <%= link_to "FIND ME SOME POOLS!", '#', class: "button" %>
+<!--        <%= link_to "I SKATED A POOL!", '#', class "button" %>-->
+  </p>  </div>
+
+    <%= yield %>
 
 </body>
 </html>
