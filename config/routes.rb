@@ -1,5 +1,8 @@
 SFTPF::Application.routes.draw do
+  get "pools/new"
+
   root :to => "static_pages#home"
+  match '/new_pool', to: 'pools#new', via: 'get'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
