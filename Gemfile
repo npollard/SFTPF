@@ -10,6 +10,11 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+group :test do
+  gem 'selenium-webdriver'
+  gem 'capybara'
+end
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
