@@ -11,4 +11,59 @@
  *= require_self
  *= require_tree .
  */
+ 
+ /* .navbutton generated in part from cssbuttongenerator.com */
 
+body {
+	color:rgb(200,30,30);
+	font-family:sans-serif;
+	background-color:rgb(255,255,220);
+}
+
+h1 {
+	font-size:22px;
+	text-align:center;
+}
+
+p {
+	font-size:14px;
+}
+
+.nav {
+
+}
+
+.navbutton {
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background-color:rgb(200,30,30);
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+	border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-size:22px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:49%;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #810e05;
+	margin:2px 0px;
+}.navbutton:hover {
+	background-color:rgb(170,15,15);
+}.navbutton:active {
+	position:relative;
+	top:1px;
+}
+
+#logo {
+	font-size:30px;
+	height:75px;
+	line-height:75px;
+	width:99%;
+}
