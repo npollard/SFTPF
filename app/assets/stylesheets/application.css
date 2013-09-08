@@ -29,11 +29,7 @@ p {
 	font-size:14px;
 }
 
-.nav {
-
-}
-
-.navbutton {
+.button {
 	box-shadow:inset 0px 1px 0px 0px #f5978e;
 	background-color:rgb(200,30,30);
 	border-top-left-radius:6px;
@@ -44,21 +40,26 @@ p {
 	border:1px solid #d02718;
 	display:inline-block;
 	color:#ffffff;
-	font-size:22px;
 	font-weight:bold;
 	font-style:normal;
-	height:50px;
-	line-height:50px;
-	width:49%;
 	text-align:center;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #810e05;
+	padding:5px 10px;
 	margin:2px 0px;
-}.navbutton:hover {
+}.button:hover {
 	background-color:rgb(170,15,15);
-}.navbutton:active {
+}.button:active {
 	position:relative;
 	top:1px;
+}
+
+.navbutton {
+	font-size:22px;
+	height:50px;
+	line-height:50px;
+	width:49%;
+	padding:0px;
 }
 
 #logo {
