@@ -1,9 +1,5 @@
 SFTPF::Application.routes.draw do
-  get "users/new"
-
-  #match '/home', to: 'static_pages#home', via: 'get'
   root :to => "static_pages#home"
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
